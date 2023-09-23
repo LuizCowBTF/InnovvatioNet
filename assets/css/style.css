@@ -1,0 +1,813 @@
+/*
+COLOR CODES
+  Black #1f1d1a
+  Light Gray #929292
+  Dark Gray #2a2a2a
+  Brown #865701, rgb(134,87,1)
+  Gold #b28601, rgb(178,134,1)
+  
+TABELA DE CONTEÚDO
+  1. Estilos Universais
+  2. Estilos de cabeçalho e menu
+  3. Estilos da página Home
+  4. Estilos da página Sobre & Serviços
+  5. Estilos da página Contatos & Footer
+  6. jCarousel
+  7. Media Queries
+--------------------------------------*/
+
+/* 1. Estilos Universais
+--------------------------------------*/
+
+* { 
+  font-family: 'Open Sans', sans-serif;
+  color: #00CCFF;
+}
+
+body { 
+  background: url('../images/body-bg.png') repeat;
+}
+
+h1, h2, h3 { 
+  text-transform: uppercase;
+  color: #00CCFF;
+}
+
+h2 {
+  color: #00CCFF;
+  margin-top: 0;
+  width: 100%;
+}
+
+h3 {
+  color: #00CCFF;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+a:hover, a:focus { 
+  color: #b28601;
+  text-decoration: none; 
+}
+
+p { 
+  color: #00CCFF;
+  font-size: 14px;
+}
+
+ul {
+  margin: 0;
+}
+
+.blue {
+	color: #6BE;
+}
+
+.green {
+	color: #6E6;
+}
+
+.col-md-6,
+.col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.innovv_section-title {
+  display: block;
+}
+
+.innovv_home-image, 
+.innovv_image-overlay,
+.innovv_black-bg {
+   border-radius: 30px;
+   width: 100%;
+}
+
+.innovv_black-bg,
+.innovv_content-box {
+  width: 523px;
+  height: 523px;
+}
+
+.innovv_content-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+      -ms-flex-direction:column;
+          flex-direction:column;
+          -webkit-box-align: start;
+          -webkit-align-items: flex-start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;  
+  padding: 0 50px;
+}
+
+.innovv_content-box-about {
+  margin-top: 40px;
+  width: 523px;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+      -ms-flex-direction:column;
+          flex-direction:column;
+          -webkit-box-align: start;
+          -webkit-align-items: flex-start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;  
+  padding: 40px 50px 10px 50px;
+}
+
+.innovv_content-box-service {
+  margin-top: 40px;
+  width: 523px;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+      -ms-flex-direction:column;
+          flex-direction:column;
+          -webkit-box-align: start;
+          -webkit-align-items: flex-start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;  
+  padding: 40px 50px 10px 50px;
+}
+
+
+/* IE fix */
+.innovv_flex-item-ie-fix,
+.innovv_content-box > * {
+  width: 100%;
+}
+
+.innovv_flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.innovv_black-bg {
+  background: url('../images/round-rectangle.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.innovv_brown-rectangle-bg {
+  border: 1px solid #865701;
+  border-radius: 30px;
+  width: 80%;
+  height: 80%;
+}
+
+.innovv_brown {
+  color: #865701;
+}
+
+.innovv_gold {
+  color: #b28601;
+}
+
+.innovv_btn {
+  background: #865701;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.innovv_btn:hover, .innovv_btn:focus {
+  background: #b28601;
+  color: white;
+}
+
+.innovv_position-relative {
+  position: relative;
+}
+
+/* 2. Estilos de cabeçalho e menu
+--------------------------------------*/
+
+.innovv_site-header {
+  background: url('../images/header-bg.png') repeat-x;
+  border-bottom: 1px solid #865701;
+  height: 82px; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.innovv_site-header.sticky {
+  height: 47px;
+}
+
+.innovv_site-header h1 { 
+  font-size: 60px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease; 
+}
+
+.innovv_site-header.sticky h1 {
+  font-size: 34px;
+}
+
+.innovv_site-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+.innovv_site-name span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+
+.innovv_site-name span:first-child {
+  font-size: 20px;
+}
+
+.innovv_site-header .innovv_nav {
+  position: absolute;
+  bottom: 14px;
+  right: 0;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.innovv_site-header.sticky .innovv_nav {
+  bottom: 6px;
+}
+
+.ie11 .innovv_site-header.sticky .innovv_nav,
+.ie10 .innovv_site-header.sticky .innovv_nav {
+  bottom: 7px;
+}
+
+@-moz-document url-prefix() { 
+    .innovv_site-header .innovv_nav {
+      bottom: 16px;
+      -webkit-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+    }
+    .innovv_site-header.sticky .innovv_nav { bottom: 8px; }
+}
+
+.innovv_nav ul li {
+  float: left;
+  list-style: none;
+}
+
+.innovv_nav ul li a {
+  padding: 15px 20px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.innovv_site-header.sticky .innovv_nav ul li a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.innovv_nav ul li.active a {
+  background: url('../images/body-bg.png');
+  border-left: 1px solid #865701;
+  border-top: 1px solid #865701;
+  border-right: 1px solid #865701;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.innovv_nav ul li a {
+  color: #865701;
+}
+
+#responsive-menu ul li:hover a, 
+#responsive-menu ul li.active a,
+.innovv_nav li:hover a, 
+.innovv_nav li.active a {
+  color: #b28601;
+}
+
+.innovv_nav li:hover a, 
+.innovv_nav li.active a,
+a:focus {
+  text-decoration: none;
+}
+
+#responsive-menu {
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: rgba(116, 106, 64, 0.4);
+  position: fixed;
+  z-index: 5500;
+  right: -1500px;
+  display: none;
+  overflow: auto;
+}
+
+#responsive-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#responsive-menu ul li {
+  display: block;
+  margin-bottom: 2px;
+}
+
+#responsive-menu ul li a {
+  padding: 12px 18px;
+  background-color: #1f1d1a;
+  color: #865701;
+  display: block;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  text-transform: uppercase;
+}
+
+#responsive-menu ul li a i {
+  margin-right: 15px;
+}
+
+a#mobile_menu {
+  font-size: 24px;
+  background-color: rgba(178,134,1, 0.8);
+  border-radius: 10px;
+  color: #1f1d1a;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 5500;
+}
+
+#responsive-menu ul li a:hover,
+#responsive-menu ul li.active a {
+  background: #333;
+  text-decoration: none;
+}
+
+/* 3. Estilos da página Home  
+--------------------------------------*/
+
+#home {
+  padding-top: 140px;
+}
+
+.innovv_home-image-container {
+  display: inline-block;
+  position: relative;
+}
+
+.innovv_image-overlay {
+  background: rgba(51,51,51,0.9); /* OLD - iOS 6-, Safari 3.1-6 */
+  cursor: pointer;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;  
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+  
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          -webkit-box-align: center;
+          align-items: center;
+
+  -webkit-box-orient: vertical;  
+    -webkit-box-pack: center;
+       -ms-flex-pack: center;
+    
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.innovv_image-overlay:hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.innovv_search-icon {
+  background: #865701;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+
+.innovv_info-btn {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 150px;
+}
+
+/* 4. Estilos da página Sobre & Serviços
+--------------------------------------*/
+
+#about {
+  padding-top: 10px;
+}
+
+.innovv_teams-box {
+  margin-top: 20px;
+}
+
+.innovv_team-member-container {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.tm-team-member-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.innovv_member-img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.innovv_img-frame {
+  position: absolute;
+}
+
+#services {
+  padding-top: 40px;
+}
+
+.innovv_service-container {
+  margin-top: 25px;
+}
+
+.innovv_service-content {
+  margin-left: 9px;
+}
+
+h3.innovv_service-title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+/* 5. Estilos da página Contatos & Footer
+-------------------------------------*/
+
+#products {
+  padding-top: 80px;
+}
+
+form {
+  width: 430px;
+}
+
+.form-control {
+  background: #1f1d1a;
+  border: 1px solid #865701;
+  border-radius: 10px;
+  color: #b28601;
+}
+
+.form-control:focus {
+  border: 1px solid #b28601;
+}
+
+.innovv_send-btn {
+  background: #774d01;
+  color: #C5A554;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #b28601;
+}
+
+.form-control:-moz-placeholder {
+  color: #b28601;
+} /* Firefox 18- */
+
+.form-control::-moz-placeholder {
+  color: #b28601;
+} /* Firefox 19+ */
+
+.form-control:-ms-input-placeholder {
+  color: #b28601;
+}
+
+.innovv_social-icons-img {
+  display: none;
+}
+
+.innovv_social-icon { 
+  display: inline-block;
+  width: 52px;
+  height: 44px; 
+}
+
+#facebook {
+  background: url('../images/social-icons.png') -5px 0;
+}
+
+#twitter {
+  background: url('../images/social-icons.png') -59px 0;
+}
+
+#google {
+  background: url('../images/social-icons.png') -113px 0;
+}
+
+#vimeo {
+  background: url('../images/social-icons.png') -167px 0;
+}
+
+#flickr {
+  background: url('../images/social-icons.png') -220px 0;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+.innovv_copyright-container {
+  padding-left: 30px;
+}
+
+/* 6. jCarousel http://sorgalla.com/jcarousel 
+---------------------------------------------*/
+
+.jcarousel-wrapper {
+  position: relative;
+}
+
+.jcarousel {
+    position: relative;    
+    overflow: hidden;
+}
+
+.innovv_team .jcarousel {
+  width: 250px;
+}
+
+.innovv_services .jcarousel {
+  width: 275px;
+}
+
+.innovv_services .jcarousel-control-prev {
+  left: -50px;
+}
+
+.innovv_services .jcarousel-control-next {
+  right: -50px;
+}
+
+.innovv_services .jcarousel-control-prev,
+.innovv_services .jcarousel-control-next {
+  top: 110px;
+}
+
+.innovv_products .jcarousel {
+  width: 275px;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.innovv_team .jcarousel-control-prev {
+  left: 0;
+}
+
+.innovv_team .jcarousel-control-next {
+  right: 0;
+}
+
+.innovv_products .jcarousel-control-prev {
+  left: -50px;
+}
+
+.innovv_products .jcarousel-control-next {
+  right: -50px;
+}
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: 0;
+    cursor: default;
+}
+
+.jcarousel-control-prev, .jcarousel-control-next {
+  position: absolute;  
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #b28601;
+  color: #000;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+  font: 24px/27px Arial, sans-serif;
+  border-radius: 30px;
+  box-shadow: 0 0 2px #999;
+}
+
+.innovv_team .jcarousel-control-prev, 
+.innovv_team .jcarousel-control-next {
+  top: 55px;
+}
+
+.innovv_products .jcarousel-control-prev,
+.innovv_products .jcarousel-control-next {
+  top: 110px;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-prev:focus,
+.jcarousel-control-next:hover,
+.jcarousel-control-next:focus {
+  color: #865701;
+}
+
+.innovv_product-img {
+  margin-top: 30px;
+}
+
+/* 7. Media Queries
+--------------------------------------*/
+
+@media screen and (max-width: 1199px) {
+  .innovv_black-bg, 
+  .innovv_content-box {
+    width: 480px;
+    height: 523px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .innovv_site-header { height: 48px; }
+  .innovv_site-header h1 { font-size: 35px; }
+  .innovv_site-header .innovv_nav { 
+    right: 10px;
+    bottom: 8px;
+  }
+  @-moz-document url-prefix() {
+      .innovv_site-header .innovv_nav { 
+        bottom: 11px;
+      }
+  }
+  .ie11 .innovv_site-header .innovv_nav,
+  .ie10 .innovv_site-header .innovv_nav {
+    bottom: 9px;
+  }
+  .ie11 .innovv_site-header.sticky .innovv_nav {
+    bottom: 7px;
+  }
+
+  .innovv_nav ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #home { padding-top: 100px; }
+  .innovv_black-bg, 
+  .innovv_content-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .innovv_content-box {
+    height: auto;
+    padding: 15px;
+  }
+  .innovv_section { margin-top: 50px; }
+}
+
+@media screen and (max-width: 767px) {
+  .innovv_site-header { position: static; }
+  .innovv_nav { bottom: -6px; }
+  #home { padding-top: 30px; }
+  .innovv_black-bg,
+  .innovv_content-box {
+    width: 98%;
+    height: auto;
+  }
+  .innovv_black-bg {
+    background: #1B1B1B;
+    border: 1px solid #865701;
+    border-radius: 30px;
+    padding: 30px;
+  }
+  .innovv_brown-rectangle-bg {
+    width: 100%;
+    padding: 30px;
+  }
+  .innovv_second-box { margin-top: 50px; }
+  .innovv_service-container > * { text-align: center; }
+  .innovv_service-image {
+    float: none;
+    margin: 20px auto 10px auto;
+  }
+  .innovv_service-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .innovv_copyright-container { padding-left: 0; }
+}
+
+@media screen and (max-width: 400px) {
+  .innovv_black-bg { padding: 15px; }
+  .innovv_brown-rectangle-bg { padding: 5px; }
+  .innovv_products .jcarousel-control-prev { left: 0; }
+  .innovv_products .jcarousel-control-next { right: 0; }
+  .innovv_product-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .innovv_product-img {
+    margin-top: 20px;
+    width: 75%;
+  }
+}

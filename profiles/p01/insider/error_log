@@ -1,0 +1,90 @@
+[08-Mar-2020 15:52:08 America/Fortaleza] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 15:52:08 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 15:52:08 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 15:57:55 America/Fortaleza] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 15:57:55 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 15:57:55 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 15:59:17 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 15:59:17 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 15:59:17 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 15:59:20 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 15:59:20 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 15:59:20 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:34:48 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:34:48 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:34:48 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:40:14 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:40:14 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:40:14 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:40:49 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:40:49 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:40:49 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:48:11 America/Fortaleza] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'innovv36_luiz'@'localhost' to database 'innovv36__bd_innovvationet' in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:48:11 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:48:11 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:49:32 America/Fortaleza] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'innovv36_luiz'@'localhost' to database 'innovv36__bd_innovvationet' in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:49:32 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:49:32 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:49:40 America/Fortaleza] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'innovv36_luiz'@'localhost' to database 'innovv36__bd_innovvationet' in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:49:40 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:49:40 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:50:56 America/Fortaleza] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'innovv36_luiz'@'localhost' to database 'innovv36__bd_innovvationet' in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:50:56 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:50:56 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:56:35 America/Fortaleza] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'innovv36_admin'@'localhost' to database 'innovv36__innovvatio' in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:56:35 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:56:35 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[08-Mar-2020 16:57:22 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Mar-2020 16:57:22 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Mar-2020 16:57:22 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[20-Jun-2020 12:42:47 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[20-Jun-2020 12:42:47 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[20-Jun-2020 12:42:47 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[21-Jun-2020 17:29:43 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[21-Jun-2020 17:29:43 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[21-Jun-2020 17:29:43 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[21-Jun-2020 17:29:47 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[21-Jun-2020 17:29:47 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/registrar.php on line 7
+[21-Jun-2020 17:29:47 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/registrar.php on line 10
+[06-Jul-2020 14:12:35 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[06-Jul-2020 14:12:35 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[06-Jul-2020 14:12:35 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[23-Jul-2020 09:56:06 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[23-Jul-2020 09:56:06 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[23-Jul-2020 09:56:06 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[04-Sep-2020 09:35:31 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[04-Sep-2020 09:35:31 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/registrar.php on line 7
+[04-Sep-2020 09:35:31 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/registrar.php on line 10
+[17-Sep-2020 05:19:32 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[17-Sep-2020 05:19:32 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[17-Sep-2020 05:19:32 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[22-Mar-2021 04:05:40 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[22-Mar-2021 04:05:40 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[22-Mar-2021 04:05:40 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[23-Mar-2021 17:38:13 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[23-Mar-2021 17:38:13 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/registrar.php on line 7
+[23-Mar-2021 17:38:13 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/registrar.php on line 10
+[31-Mar-2021 22:48:58 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[31-Mar-2021 22:48:58 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/registrar.php on line 7
+[31-Mar-2021 22:48:58 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/registrar.php on line 10
+[02-Apr-2021 00:46:31 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[02-Apr-2021 00:46:31 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[02-Apr-2021 00:46:31 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[07-Apr-2021 04:01:00 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[07-Apr-2021 04:01:00 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/registrar.php on line 7
+[07-Apr-2021 04:01:00 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/registrar.php on line 10
+[08-Apr-2021 04:48:57 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[08-Apr-2021 04:48:57 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[08-Apr-2021 04:48:57 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[13-Apr-2021 10:19:07 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[13-Apr-2021 10:19:07 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[13-Apr-2021 10:19:07 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
+[14-Apr-2021 18:47:47 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[14-Apr-2021 18:47:47 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/registrar.php on line 7
+[14-Apr-2021 18:47:47 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/registrar.php on line 10
+[16-Apr-2021 14:41:11 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[16-Apr-2021 14:41:11 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/registrar.php on line 7
+[16-Apr-2021 14:41:11 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/registrar.php on line 10
+[19-Apr-2021 13:09:42 America/Fortaleza] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'innovv36_admin'@'localhost' (using password: NO) in /home1/innovv36/public_html/insider/classes/conexao.php on line 12
+[19-Apr-2021 13:09:42 America/Fortaleza] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/innovv36/public_html/insider/index.php on line 7
+[19-Apr-2021 13:09:42 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/innovv36/public_html/insider/index.php on line 10
